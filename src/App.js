@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-
+import VideoPlayer from 'react-video-js-player'
+import presentation from './video/presentation.mp4'
 function App() {
   return (
     <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
     <h1> I am centered </h1>
+    <VideoPlayer 
+    src={presentation}
+    width="720"
+    height="420"/>
 </div>
     // <div className="App">
     //   <header className="App-header">
