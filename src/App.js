@@ -6,10 +6,15 @@ function App() {
   return (
     <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
     <h1> I am centered </h1>
-    <VideoPlayer 
-    src={presentation}
-    width="720"
-    height="420"/>
+    <iframe
+      width="853"
+      height="480"
+      src={"https://www.youtube.com/watch?v=rWIhYhZin3o"}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />
 </div>
     // <div className="App">
     //   <header className="App-header">
